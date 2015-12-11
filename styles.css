@@ -1,0 +1,64 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	font-family: tahoma;
+}
+body {
+	background-color: silver;
+	background-image: url("the_wall.jpg");
+	background-size: cover; 
+}
+h2:first-of-type {
+	text-align: center;
+	background-color: rgb(58,87,149);
+	border-bottom: 1px solid rgb(19,55,133);
+	color: white;
+	height: 50px; 
+	padding-top: 15px; 
+}
+#register, #login {
+	width: 500px; 
+	background: linear-gradient(90deg,rgba(245,245,245,.7), rgba(225,225,225,.7), rgba(245,245,245,.7));
+	margin: 80px auto; 
+	padding: 20px; 
+	border: 1px solid gray; 
+	border-radius: 10px; 
+}
+
+	form {
+		margin: 10px auto; 
+	}
+		#register h2, #login h2 {
+		text-align: center; 
+		color: blue;
+		background-color: inherit;
+		height: 30px;
+		padding: 0px; 
+		border: none;
+	}
+	form p {
+		text-align: right;
+	}
+	form p, input {
+		display: inline-block;
+		width: 150px; 
+		padding: 5px; 
+		margin: 2px; 
+	}
+	.button {
+		width: 165px; 
+		margin-top: 20px;
+		margin-left: 165px;
+		display: inline-block;   
+	}
+#errors {
+	margin-left: 900px; 
+	margin-top: -580px; 
+	padding: 10px; 
+	color: red; 
+	width: 400px; 
+	min-height: 200px; 
+	overflow: auto; 
+}
+
+

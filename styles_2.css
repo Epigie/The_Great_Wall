@@ -1,0 +1,100 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	font-family: tahoma;
+}
+body {
+	background-color: silver;
+	background-image: url('the_wall_2.jpg');
+	background-size: fill;
+	background-position: fixed;
+}
+#header {
+	background-color: rgb(58,87,149);
+	border-bottom: 1px solid rgb(19,55,133);
+	color: white;
+	padding: 15px 30px;  
+}
+	#header h2, p{
+		display: inline-block; 
+	}
+	#header .a {
+		margin-left: 1000px; 
+		width: 205px; 
+		overflow: auto;
+	}
+	#header .b {
+		float: right;
+		margin-top: 5px; 
+		color: white;
+	}
+#wall {
+	width: 850px; 
+	padding: 20px 50px;  
+	min-height: 500px; 
+	background-color: rgba(230,230,230,.7);
+	margin: 50px auto; 
+	overflow: auto;
+}
+	#wall h3 {
+		color: white;
+	}
+	#wall textarea.posts {
+		width: 830px; 
+		padding: 10px;
+		height: 50px;
+		margin: 10px auto; 
+		overflow: auto;  
+	}
+	#wall .button {
+		padding: 5px 15px; 
+		background-color: darkblue;
+		color: white; 
+		margin-left: 712px;
+		margin-bottom: 10px;  
+		font-weight: bold; 
+	}
+
+	#button {
+		width: 130px; 
+		padding: 5px 10px; 
+		background-color: darkblue;
+		color: white;
+		float: right;
+		margin-top: 5px;  
+		font-weight: bold;
+		display: block;
+	}
+/* ======================== DYNAMIC CONTENT===================== */
+.posts {
+	width: 850px; 
+	border: 1px solid black;
+	margin: 10px auto;     
+}
+	textarea.post_comments {
+		width: 600px;
+		padding: 10px; 
+		height: 30px; 
+		border-radius: 5px; 
+		overflow: auto;   
+		margin: 10px 0px 10px 215px; 
+	}
+	p.posted_messages, .posted_comments { 
+		display: block; 
+		/*margin-left: 55px; */
+		padding: 5px 10px; 
+		border-radius: 5px; 
+		background-color: silver; 
+		margin-right: 10px; 
+	}
+	.posted_comments {
+		margin-left: 40px; 
+		margin-top: 5px; 
+	}
+	.time {
+		font-size: 13px;
+		color: white; 
+	}
+	.blue {
+		color: blue;
+	}
